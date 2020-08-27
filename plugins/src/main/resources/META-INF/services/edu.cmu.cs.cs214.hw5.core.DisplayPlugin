@@ -1,0 +1,3 @@
+edu.cmu.cs.cs214.hw5.plugin.StickChartDisplayPlugin
+edu.cmu.cs.cs214.hw5.plugin.PieChartDisplayPlugin
+edu.cmu.cs.cs214.hw5.plugin.LineChartDisplayPlugin

@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'application'
+apply plugin: 'checkstyle'
+mainClassName = 'edu.cmu.cs.cs214.hw5.WeatherIndexFrameworkRunner'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.json:json:20190722'
+    compile 'org.knowm.xchart:xchart:3.6.2'
+    compile 'org.jsoup:jsoup:1.13.1'
+    compile 'com.opencsv:opencsv:5.1'
+    compile project(':framework')
+}
+checkstyle {
+    ignoreFailures = true
+    toolVersion = "8.24"
+    config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+    sourceSets = [sourceSets.main]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.24">
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/WeatherIndexFrameworkRunner.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/ChangeListener.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/CityInfo.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/DataPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/DisplayPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/InputEntry.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/InputEntryType.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/PathInputEntry.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/ProcessedWeatherData.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/RawWeatherData.java">
+<error line="94" column="70" severity="error" message="&apos;weatherMetric&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/SelectMultipleInputEntry.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/SelectOneInputEntry.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/State.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/TextInputEntry.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherIndexFramework.java">
+<error line="3" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - javax.swing.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="69" column="38" severity="error" message="&apos;IllegalArgumentException&apos;需要Javadoc注释 @throws 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="64" severity="error" message="&apos;IllegalStateException&apos;需要Javadoc注释 @throws 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherIndexFrameworkData.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherIndexFrameworkDisplay.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherIndexGenerator.java">
+<error line="4" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - java.util.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherIndexType.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherMetric.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherRecord.java">
+<error line="40" severity="error" message="本行字符数 212个，最多：160个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="102" column="24" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="103" column="22" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="104" column="23" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="105" column="25" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="106" column="29" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="107" column="27" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="108" column="29" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+<error line="109" column="29" severity="error" message="避免内嵌块。" source="com.puppycrawl.tools.checkstyle.checks.blocks.AvoidNestedBlocksCheck"/>
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/core/WeatherState.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/framework/src/main/java/edu/cmu/cs/cs214/hw5/gui/WeatherIndexFrameworkGui.java">
+<error line="3" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - edu.cmu.cs.cs214.hw5.core.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="5" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - javax.swing.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="6" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - java.awt.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="83" severity="error" message="Switch 块未定义 default 。" source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="120" severity="error" message="Switch 块未定义 default 。" source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="192" severity="error" message="Switch 块未定义 default 。" source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="300" severity="error" message="Switch 块未定义 default 。" source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+</file>
+</checkstyle>

@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+repositories {
+    mavenCentral()
+}
+checkstyle {
+    ignoreFailures = true
+    toolVersion = "8.24"
+    config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+    sourceSets = [sourceSets.main]
+}
+

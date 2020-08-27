@@ -1,0 +1,3 @@
+edu.cmu.cs.cs214.hw5.plugin.WebAPI12HFutureDataPlugin
+edu.cmu.cs.cs214.hw5.plugin.WebCrawlerDataPlugin
+edu.cmu.cs.cs214.hw5.plugin.LocalCSVDataPlugin

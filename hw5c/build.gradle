@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'application'
+apply plugin: 'checkstyle'
+
+mainClassName = 'edu.cmu.cs.cs214.hw5.Main'
+
+repositories {
+    mavenCentral()
+}
+checkstyle {
+    ignoreFailures = true
+    toolVersion = "8.24"
+    config = resources.text.fromFile('config/checkstyle/checkstyle.xml')
+    sourceSets = [sourceSets.main]
+}
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile project(':framework')
+    compile files('libs/plugins.jar')
+    compile group: 'com.yahoofinance-api', name: 'YahooFinanceAPI', version: '3.15.0'
+    compile group: 'org.knowm.xchart', name: 'xchart', version: '3.6.2'
+    compile 'org.json:json:20190722'
+    compile 'org.jsoup:jsoup:1.13.1'
+}

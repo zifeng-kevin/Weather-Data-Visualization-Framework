@@ -1,0 +1,3 @@
+edu.cmu.cs.cs214.hw5.plugins.display.BoxChartDisplayPlugin
+edu.cmu.cs.cs214.hw5.plugins.display.GroupedBarChartDisplayPlugin
+edu.cmu.cs.cs214.hw5.plugins.display.PieChartDisplayPlugin

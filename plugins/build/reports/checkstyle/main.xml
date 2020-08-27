@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.24">
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/LineChartDisplayPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/LocalCSVDataPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/PieChartDisplayPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/StickChartDisplayPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/WebAPI12HFutureDataPlugin.java">
+</file>
+<file name="/Users/liuzifeng/Desktop/CMU/17514/Team32/plugins/src/main/java/edu/cmu/cs/cs214/hw5/plugin/WebCrawlerDataPlugin.java">
+</file>
+</checkstyle>
